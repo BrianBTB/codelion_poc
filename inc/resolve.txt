@@ -1,0 +1,166 @@
+modattribute  0x0
+modversion    0x101
+modname         SceWebKit
+ent_top       0x6b2c58
+ent_end       0x6b2c98
+stub_top      0x6b2c98
+stub_end      0x6b2e04
+module_nid    0x98397dfc
+field_38      0x0
+field_3C      0x0
+field_40      0x0
+mod_start     0x170
+mod_stop      0x178
+exidx_start   0x71d5cc
+exidx_end     0x7ac4b4
+extab_start   0x7ac4b4
+extab_end     0x7bfd98
+success
+
+size            0x:20
+lib_version[2]  0x:0
+attribute       0x:8000
+num_functions   0x:3
+num_vars        0x:2
+num_tls_vars    0x:0
+module_nid      0x:0
+*lib_name       0x:0
+*nid_table      0x:821b36e4
+**entry_table   0x:821b36f8
+ 
+size            0x:20
+lib_version[2]  0x:1
+attribute       0x:1
+num_functions   0x:25f
+num_vars        0x:33
+num_tls_vars    0x:26
+module_nid      0x:26d334f
+*lib_name       0x:821b370c
+*nid_table      0x:821b3718
+**entry_table   0x:821b4380
+ 
+
+size               0x34
+lib_version        0x1
+attribute          0x0
+num_functions      0x2
+num_vars           0x0
+num_tls_vars       0x0
+reserved1          0x0
+module_nid         0xfb23cb9f
+*lib_name          0x821b4dc8
+reserved2          0x0
+*func_nid_table    0x821b4e1c
+**func_entry_table 0x821b5790
+*var_nid_table     0x0
+**var_entry_table  0x0
+*tls_nid_table     0x0
+**tls_entry_table  0x0
+Name                 
+ 
+size               0x34
+lib_version        0x1
+attribute          0x0
+num_functions      0x1f1
+num_vars           0x3
+num_tls_vars       0x0
+reserved1          0x0
+module_nid         0x81405f79
+*lib_name          0x821b4dd4
+reserved2          0x0
+*func_nid_table    0x821b4e24
+**func_entry_table 0x821b5798
+*var_nid_table     0x821b5778
+**var_entry_table  0x821b60ec
+*tls_nid_table     0x0
+**tls_entry_table  0x0
+Name                 
+ 
+size               0x34
+lib_version        0x1
+attribute          0x0
+num_functions      0x4
+num_vars           0x0
+num_tls_vars       0x0
+reserved1          0x0
+module_nid         0x6bf8b2a2
+*lib_name          0x821b4de4
+reserved2          0x0
+*func_nid_table    0x821b55e8
+**func_entry_table 0x821b5f5c
+*var_nid_table     0x0
+**var_entry_table  0x0
+*tls_nid_table     0x0
+**tls_entry_table  0x0
+Name                 
+ 
+size               0x34
+lib_version        0x5
+attribute          0x0
+num_functions      0x3
+num_vars           0x1
+num_tls_vars       0x0
+reserved1          0x0
+module_nid         0xcae9ace6
+*lib_name          0x821b4dec
+reserved2          0x0
+*func_nid_table    0x821b55f8
+**func_entry_table 0x821b5f6c
+*var_nid_table     0x821b5784
+**var_entry_table  0x821b60f8
+*tls_nid_table     0x0
+**tls_entry_table  0x0
+Name                 
+ 
+size               0x34
+lib_version        0x1
+attribute          0x0
+num_functions      0x6
+num_vars           0x1
+num_tls_vars       0x0
+reserved1          0x0
+module_nid         0xf7629240
+*lib_name          0x821b4dfc
+reserved2          0x0
+*func_nid_table    0x821b5604
+**func_entry_table 0x821b5f78
+*var_nid_table     0x821b5788
+**var_entry_table  0x821b60fc
+*tls_nid_table     0x0
+**tls_entry_table  0x0
+Name                 
+ 
+size               0x34
+lib_version        0x1
+attribute          0x0
+num_functions      0x35
+num_vars           0x1
+num_tls_vars       0x0
+reserved1          0x0
+module_nid         0xbe43bb07
+*lib_name          0x821b4e0c
+reserved2          0x0
+*func_nid_table    0x821b561c
+**func_entry_table 0x821b5f90
+*var_nid_table     0x821b578c
+**var_entry_table  0x821b6100
+*tls_nid_table     0x0
+**tls_entry_table  0x0
+Name                 
+ 
+size               0x34
+lib_version        0x1
+attribute          0x0
+num_functions      0x22
+num_vars           0x0
+num_tls_vars       0x0
+reserved1          0x0
+module_nid         0xcdae3c7d
+*lib_name          0x821b4e14
+reserved2          0x0
+*func_nid_table    0x821b56f0
+**func_entry_table 0x821b6064
+*var_nid_table     0x0
+**var_entry_table  0x0
+*tls_nid_table     0x0
+**tls_entry_table  0x0
