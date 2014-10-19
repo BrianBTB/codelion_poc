@@ -6,6 +6,7 @@ Proof of concept for webkit exploit on vita 3.18
 
 How to run:
 run netcat on computer with -k -l -p <port>
+NOTE: to run without netcat, make log.php empty
 
 modify inc/log.php to have your netcat IP and port in the fsockopen
 
